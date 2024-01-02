@@ -93,7 +93,6 @@ namespace FPTBook.Controllers
             }
             return RedirectToAction("Index");
         }
-        
         private async Task<List<string>> GetUserRoles(BookUser user)
         {
             return new List<string>(await _userManager.GetRolesAsync(user));
