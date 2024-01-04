@@ -1,9 +1,11 @@
-namespace FPTBook.Enums{
+namespace FPTBook.Enums
+{
 public enum Roles
 {
     Admin,
     StoreOwner,
     Customer
 }
+
 }
 
